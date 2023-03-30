@@ -53,7 +53,7 @@ app.use((req,res, next) => {
 
 //     return res.status(200).json({});   
 // })
-
+//mediplan
 app.get("/", (req, res) => {
     return res.status(200).send("MediPlan apis")
     });
